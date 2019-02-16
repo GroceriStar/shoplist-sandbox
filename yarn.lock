@@ -817,10 +817,10 @@
     path "^0.12.7"
     uuid "^3.3.2"
 
-"@groceristar/shoplist-blocks-component@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@groceristar/shoplist-blocks-component/-/shoplist-blocks-component-1.0.2.tgz#cf20e891c1eb839334c2e99d1b45f2f281bd015e"
-  integrity sha512-AdWm02KN/UQ+ESGrB/GVJ+LJgOyOdeYdsZkCWWSmeirfafk/TRQE/3aLshAs4IDsWCKBX40ogNxTa8K8wWnS1w==
+"@groceristar/shoplist-blocks-component@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@groceristar/shoplist-blocks-component/-/shoplist-blocks-component-1.0.3.tgz#1427b473905f929518fef0ba6fa7832cf2fdfa35"
+  integrity sha512-V1ky4tfVi++JVQhbMCYuG8gf4FYHVtVqERPSV13e6JgCZ1iy2vqhvPkH+7xwb/pwZKLQ+LcsMDGbC9Xv6glh0Q==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.3.3"
     "@groceristar/groceristar-fetch" "^1.1.61"
