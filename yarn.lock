@@ -816,10 +816,10 @@
     path "^0.12.7"
     uuid "^3.3.2"
 
-"@groceristar/shoplist-blocks-component@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@groceristar/shoplist-blocks-component/-/shoplist-blocks-component-1.0.6.tgz#bafda733f5a23f9abf0dc7db201eea7533fe603b"
-  integrity sha512-Yz9+fR94TURCn+qbZXEwa4r4nhw/GtQ5hwy91SfAyUUZO/453o7yw43SEnDAQenDqLrG2UibTXvvQxqaPLnh0Q==
+"@groceristar/shoplist-blocks-component@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@groceristar/shoplist-blocks-component/-/shoplist-blocks-component-1.0.8.tgz#ce26fb828e7b23dca618259e298b605863a259d4"
+  integrity sha512-zh9JDHEam0JJSonj8Gle/JvPB7SIYLiY14LND2F9Xjx9F2X7YXRM57aX3oMZFvFzvAk882HVUqTwgSS/VOb4ZQ==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.3.3"
     "@groceristar/groceristar-fetch" "^1.1.61"
@@ -1959,6 +1959,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
