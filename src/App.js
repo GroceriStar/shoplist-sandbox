@@ -3,7 +3,16 @@
 // import './App.css';
 import React, { Component } from 'react';
 
-// import Header from './components/Header/Header';
+
+import { Header }   from '@groceristar/antd-showcase-components';
+
+// import {
+//   IngredientList,
+//   DefaultList
+// } from '@groceristar/grocery-component';
+
+import { RadioPanelWrapper }   from '@groceristar/shoplist-blocks-component';
+
 import Router from './Router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
