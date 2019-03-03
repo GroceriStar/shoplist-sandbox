@@ -4,14 +4,16 @@
 import React, { Component } from 'react';
 
 
-import { Header }   from '@groceristar/antd-showcase-components';
+import { HeaderShowcase }   from '@groceristar/antd-showcase-components';
 
 // import {
 //   IngredientList,
 //   DefaultList
 // } from '@groceristar/grocery-component';
 
-import { RadioPanelWrapper }   from '@groceristar/shoplist-blocks-component';
+import {
+  RadioPanelWrapper
+} from '@groceristar/shoplist-blocks-component';
 
 import Router from './Router';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/*<Header />*/}
+        {/*<HeaderShowcase />*/}
 
         <Router />
       </div>
