@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@groceristar/antd-showcase-components": "^1.0.38",
-    "@groceristar/groceristar-fetch": "^1.2.9",
+    "@groceristar/groceristar-fetch": "^1.2.10",
     "@groceristar/grocery-component": "^1.0.9",
     "@groceristar/shoplist-blocks-component": "^1.0.14",
     "antd": "^3.13.6",
