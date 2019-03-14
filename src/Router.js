@@ -8,11 +8,12 @@ import {
 } from 'react-router-dom';
 
 import {
-  Examples,
+  // Examples,
   DeleteLink,
   EditLink
 } from '@groceristar/shoplist-blocks-component'
 
+import Examples from "./views/Examples"
 
 
 class OldRouter extends Component {
