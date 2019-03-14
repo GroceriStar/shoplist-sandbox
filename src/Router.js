@@ -14,7 +14,7 @@ import {
 } from '@groceristar/shoplist-blocks-component'
 
 import Examples from "./views/Examples"
-
+import HomeView from "./views/HomeView"
 
 class OldRouter extends Component {
 
@@ -23,7 +23,7 @@ class OldRouter extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path='/'    component={Examples} exact />
+          <Route path='/'    component={HomeView} exact />
           <Route path='/examples'    component={Examples} exact />
           <Route path='/examples/delete/:id' component={DeleteLink} />
           <Route path='/examples/edit/:id' component={EditLink} />
