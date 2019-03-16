@@ -806,7 +806,7 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^1.1.61", "@groceristar/groceristar-fetch@^1.2.15":
+"@groceristar/groceristar-fetch@^1.2.15":
   version "1.2.15"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.15.tgz#06398ec20ce747b5d3fe1a74b171bcd87fb1c7ff"
   integrity sha512-W6KHaywi+3ru2qLr8Ubb5KqIDmENk7QmBLBADz180SlPkIvWcuF3IvK9B1Z56UwriB8EkDgs8U0ahhTs4Hbwwg==
@@ -834,12 +834,12 @@
     path "^0.12.7"
     uuid "^3.3.2"
 
-"@groceristar/shoplist-blocks-component@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@groceristar/shoplist-blocks-component/-/shoplist-blocks-component-1.0.14.tgz#f4af25d7207385a87ab7e48b9be3860ac2f44863"
-  integrity sha512-IcixNFnJ75omZwTBQGYv7qTOZkkP2UnBt4YA9jBzZSKi+L6apT24Mnu6c/YVtd4riT8mt14JQaFv1UFFbqfJpA==
+"@groceristar/shoplist-blocks-component@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@groceristar/shoplist-blocks-component/-/shoplist-blocks-component-1.0.15.tgz#fc8d74cadc541ff11ef44338629b0ee9cc2ad9d7"
+  integrity sha512-vlL+tm0ZNyJlAn7E/66YasSk1Vxh38WfsRjxCxhuH8wZJo9q+GcDcUiyMS3+oCq/lkY2n26yWRoRcqODAoI9sw==
   dependencies:
-    "@groceristar/groceristar-fetch" "^1.1.61"
+    "@groceristar/groceristar-fetch" "^1.2.15"
     "@groceristar/grocery-component" "^1.0.9"
     antd "^3.13.2"
     lodash "^4.17.11"
