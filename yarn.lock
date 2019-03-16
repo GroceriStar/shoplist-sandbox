@@ -806,26 +806,6 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/cards-wrapper@^1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.17.tgz#254bdd743b993e539b9c11780513cb73819d5b5d"
-  integrity sha512-oTVtLYc4Xl1cRUSXiSgtQ2nczy8MlKSBDdfjAdiYUlfnNs8WY7OF8abjs9VxtYGSxvhjQNfESsKF+o2frbPMEg==
-  dependencies:
-    "@react-pdf/renderer" "^1.2.0"
-    antd "^3.13.0"
-    react-image "^2.0.0"
-    uuid "^3.3.2"
-
-"@groceristar/cards-wrapper@^1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.17.tgz#254bdd743b993e539b9c11780513cb73819d5b5d"
-  integrity sha512-oTVtLYc4Xl1cRUSXiSgtQ2nczy8MlKSBDdfjAdiYUlfnNs8WY7OF8abjs9VxtYGSxvhjQNfESsKF+o2frbPMEg==
-  dependencies:
-    "@react-pdf/renderer" "^1.2.0"
-    antd "^3.13.0"
-    react-image "^2.0.0"
-    uuid "^3.3.2"
-
 "@groceristar/groceristar-fetch@^1.1.61", "@groceristar/groceristar-fetch@^1.2.15":
   version "1.2.15"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.15.tgz#06398ec20ce747b5d3fe1a74b171bcd87fb1c7ff"
@@ -9128,15 +9108,10 @@ react-image@^2.0.0:
     "@babel/runtime" "^7.0.0"
     prop-types "15.6.2"
 
-react-is@^16.6.0:
+react-is@^16.6.0, react-is@^16.7.0:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
-
-react-is@^16.7.0:
-  version "16.8.1"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.1.tgz#a80141e246eb894824fb4f2901c0c50ef31d4cdb"
-  integrity sha512-ioMCzVDWvCvKD8eeT+iukyWrBGrA3DiFYkXfBsVYIRdaREZuBjENG+KjrikavCLasozqRWTwFUagU/O4vPpRMA==
 
 react-lazy-load@^3.0.13:
   version "3.0.13"
