@@ -709,22 +709,22 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
-"@groceristar/antd-showcase-components@^1.0.43":
-  version "1.0.43"
-  resolved "https://registry.yarnpkg.com/@groceristar/antd-showcase-components/-/antd-showcase-components-1.0.43.tgz#9af771e7cc2c71bcbfa306b20fda474ee8bc65b9"
+"@groceristar/antd-showcase-components@^1.0.47":
+  version "1.0.47"
+  resolved "https://registry.yarnpkg.com/@groceristar/antd-showcase-components/-/antd-showcase-components-1.0.47.tgz#5fc73920b0953a4a47ba0b64f3c0ec545db439f6"
   dependencies:
-    "@groceristar/cards-wrapper" "^1.0.19"
+    "@groceristar/cards-wrapper" "^1.0.21"
     "@groceristar/grocery-component" "^1.0.10"
     antd "^3.13.6"
     lodash "^4.17.11"
-    react-image "^2.0.0"
+    react-image "^2.1.1"
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
     reqwest "^2.0.5"
     shx "^0.3.2"
     uuid "^3.3.2"
 
-"@groceristar/cards-wrapper@^1.0.19", "@groceristar/cards-wrapper@^1.0.21":
+"@groceristar/cards-wrapper@^1.0.21":
   version "1.0.21"
   resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.21.tgz#3015cbf405fce1b6c2f028c547bc84d277c683af"
   dependencies:
@@ -7382,13 +7382,6 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
-  dependencies:
-    loose-envify "^1.3.1"
-    object-assign "^4.1.1"
-
 prop-types@15.7.2, prop-types@15.x, prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
@@ -8011,13 +8004,6 @@ react-dom@^16.8.6:
 react-error-overlay@^5.1.4:
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.4.tgz#88dfb88857c18ceb3b9f95076f850d7121776991"
-
-react-image@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.0.0.tgz#c1d5f21351d3957ff54c9818b8adb26cd0d4204a"
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    prop-types "15.6.2"
 
 react-image@^2.1.1:
   version "2.1.1"
