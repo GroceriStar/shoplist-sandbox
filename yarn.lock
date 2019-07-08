@@ -744,11 +744,11 @@
     underscore "^1.9.1"
     uuid "3.3.2"
 
-"@groceristar/groceristar-fetch@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.2.0.tgz#878b758e41f11cb56eac38c66f2cce80cbc88b21"
+"@groceristar/groceristar-fetch@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.2.4.tgz#68da9cdb16c42bd99bd930a50c00591c05e12d49"
   dependencies:
-    "@groceristar/sd-wrapper" "^4.9.2"
+    "@groceristar/sd-wrapper" "^4.11.3"
     dayjs "^1.8.12"
     fs "0.0.2"
     lodash "^4.17.10"
@@ -769,14 +769,16 @@
     path "^0.12.7"
     uuid "^3.3.2"
 
-"@groceristar/sd-wrapper@^4.9.2":
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-4.9.3.tgz#69d862b2712627bb28fd0a07c5a9189c11de57a2"
+"@groceristar/sd-wrapper@^4.11.3":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-4.12.0.tgz#2a1489d4149ef4a4fcb32a2c80f97ee2c41a364e"
   dependencies:
+    "@groceristar/static-data-generator" "0.0.5"
     csv-parser "^2.3.0"
     dayjs "^1.8.14"
     lodash "^4.17.11"
     path "^0.12.7"
+    path-exists "^4.0.0"
     uuid "^3.3.2"
     yarn "^1.16.0"
 
@@ -794,6 +796,16 @@
     react-router-dom "^4.3.1"
     reactstrap "^7.1.0"
     shortid "^2.2.14"
+    uuid "^3.3.2"
+
+"@groceristar/static-data-generator@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@groceristar/static-data-generator/-/static-data-generator-0.0.5.tgz#b347d7994f9f72baaf864521464472f7f27a64a8"
+  dependencies:
+    dayjs "^1.8.13"
+    lodash "^4.17.11"
+    path "^0.12.7"
+    randombytes "^2.1.0"
     uuid "^3.3.2"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -2876,9 +2888,9 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-dayjs@^1.8.0, dayjs@^1.8.12, dayjs@^1.8.14:
-  version "1.8.14"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.14.tgz#43e4f62830c2c3342c3fcd25934dc9162dbe6f38"
+dayjs@^1.8.0, dayjs@^1.8.12, dayjs@^1.8.13, dayjs@^1.8.14:
+  version "1.8.15"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.15.tgz#7121bc04e6a7f2621ed6db566be4a8aaf8c3913e"
 
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -6609,6 +6621,10 @@ path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
 
+path-exists@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
+
 path-is-absolute@^1.0.0, path-is-absolute@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
@@ -7508,6 +7524,12 @@ randomatic@^3.0.0:
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.0.6.tgz#d302c522948588848a8d300c932b44c24231da80"
+  dependencies:
+    safe-buffer "^5.1.0"
+
+randombytes@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
   dependencies:
     safe-buffer "^5.1.0"
 
