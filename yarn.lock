@@ -10241,8 +10241,8 @@ yargs@^12.0.5:
     yargs-parser "^11.1.1"
 
 yarn@^1.16.0:
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.16.0.tgz#5701b58ac555ff91f7b889b7d791b3dc86f8f999"
+  version "1.22.4"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.4.tgz#01c1197ca5b27f21edc8bc472cd4c8ce0e5a470e"
 
 yoga-layout-prebuilt@^1.9.3:
   version "1.9.3"
